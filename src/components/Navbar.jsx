@@ -12,12 +12,12 @@ const Navbar = () => {
         </NavLink>
         <li className={style.link}>Find Jobs</li>
         <li className={style.link}>Upload/Build Resume</li>
-        <NavLink to="/login" className={style.btn}>
+        <a href="javascript:void(0)" className={style.btn}>
           Login
-        </NavLink>
-        <NavLink to="/signup" className={style.btn}>
+        </a>
+        <a href="javascript:void(0)" className={style.btn}>
           Signup
-        </NavLink>
+        </a>
       </div>
     </header>
   );
